@@ -53,7 +53,7 @@ Note that using defaults as-is amounts to the same as creating a new `BrowserWin
 
 ## Reference
 
-This is the contexts of [index.js](index.js), hand edited and reformatted from the original [Electron BrowserWindow docs][docs], copied here for your viewing pleasure!
+This is the contents of [index.js](index.js), hand edited and reformatted from the original [Electron BrowserWindow docs][docs], copied here for your viewing pleasure!
 
 ```js
 module.exports = {
@@ -89,11 +89,11 @@ module.exports = {
   kiosk: false,
   // String - Default window title. Default is `'Electron'`.
   title: 'Electron',
-  // [NativeImage](native-image.md) - The window icon, when omitted on Windows the executable's icon would be used as window icon.
+  // [NativeImage](https://github.com/atom/electron/blob/master/docs/api/native-image.md) - The window icon, when omitted on Windows the executable's icon would be used as window icon.
   icon: undefined,
   // Boolean - Whether window should be shown when created. Default is `true`.
   show: true,
-  // Boolean - Specify `false` to create a [Frameless Window](frameless-window.md). Default is `true`.
+  // Boolean - Specify `false` to create a [Frameless Window](https://github.com/atom/electron/blob/master/docs/api/frameless-window.md). Default is `true`.
   frame: true,
   // Boolean - Whether the web view accepts a single mouse-down event that simultaneously activates the window. Default is `false`.
   acceptFirstMouse: false,
@@ -107,7 +107,7 @@ module.exports = {
   backgroundColor: '#000',
   // Boolean - Forces using dark theme for the window, only works on some GTK+3 desktop environments. Default is `false`.
   darkTheme: false,
-  // Boolean - Makes the window [transparent](frameless-window.md). Default is `false`.
+  // Boolean - Makes the window [transparent](https://github.com/atom/electron/blob/master/docs/api/frameless-window.md). Default is `false`.
   transparent: false,
   // String - Specifies the type of the window, which applies additional platform-specific properties. By default it's undefined and you'll get a regular app window. Supported values:
     // * On Linux, possible types are `desktop`, `dock`, `toolbar`, `splash`, `notification`.
@@ -123,7 +123,7 @@ module.exports = {
     // Boolean - Whether node integration is enabled. Default is `true`.
     nodeIntegration: true,
     // String - Specifies a script that will be loaded before other scripts run in the page. This script will always have access to node APIs no matter whether node integration is turned on or off. The value should be the absolute file path to the script.
-    // When node integration is turned off, the preload script can reintroduce Node global symbols back to the global scope. See example [here](process.md#event-loaded).
+    // When node integration is turned off, the preload script can reintroduce Node global symbols back to the global scope. See example [here](https://github.com/atom/electron/blob/master/docs/api/process.md#event-loaded).
     preload: undefined,
     // String - Sets the session used by the page. If `partition` starts with `persist:`, the page will use a persistent session available to all pages in the app with the same `partition`. if there is no `persist:` prefix, the page will use an in-memory session. By assigning the same `partition`, multiple pages can share the same session. If the `partition` is unset then default session of the app will be used.
     partition: undefined,

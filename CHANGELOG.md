@@ -3,6 +3,9 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## Unreleased
+* fix typos and inline links to electron docs
+
 ## [1.0.1] - 2015-11-29
 * add reference section to readme
 
