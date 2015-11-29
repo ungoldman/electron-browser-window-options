@@ -1,0 +1,32 @@
+{
+  "name": "electron-browser-window-options",
+  "description": "Reference for default Electron BrowserWindow options.",
+  "version": "1.0.0",
+  "author": "Nate Goldman <nate@ngoldman.me>",
+  "bugs": {
+    "url": "https://github.com/ngoldman/electron-browser-window-options/issues"
+  },
+  "devDependencies": {
+    "snazzy": "^2.0.1",
+    "standard": "^5.4.1"
+  },
+  "homepage": "https://github.com/ngoldman/electron-browser-window-options",
+  "keywords": [
+    "browser",
+    "browser-window",
+    "default",
+    "defaults",
+    "electron",
+    "options",
+    "window"
+  ],
+  "license": "CC0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ngoldman/electron-browser-window-options.git"
+  },
+  "scripts": {
+    "test": "standard | snazzy"
+  }
+}
