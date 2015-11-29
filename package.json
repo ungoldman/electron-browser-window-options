@@ -20,7 +20,7 @@
     "options",
     "window"
   ],
-  "license": "CC0",
+  "license": "ISC",
   "main": "index.js",
   "repository": {
     "type": "git",

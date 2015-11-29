@@ -173,6 +173,6 @@ Exported options should mirror [Electron BrowserWindow documentation][docs] exac
 
 ## License
 
-[CC0](LICENSE)
+[ISC](LICENSE)
 
 [docs]: https://github.com/atom/electron/blob/master/docs/api/browser-window.md
