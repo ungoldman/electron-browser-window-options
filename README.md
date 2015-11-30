@@ -33,14 +33,14 @@ npm install electron-browser-window-options
 ## Usage
 
 ```js
-const electron = require('electron')
-const defaultWindowOpts = require('electron-browser-window-options')
-const app = electron.app
-const BrowserWindow = electron.BrowserWindow
-let mainWindow = null
+var electron = require('electron')
+var defaultWindowOpts = require('electron-browser-window-options')
+var app = electron.app
+var BrowserWindow = electron.BrowserWindow
+var mainWindow = null
 
 // clone defaults and customize options
-const myOpts = Object.assign({}, defaultWindowOpts, {
+var myOpts = Object.assign({}, defaultWindowOpts, {
   titleBarStyle: 'hidden'
 })
 
