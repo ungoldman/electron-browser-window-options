@@ -1,7 +1,7 @@
 {
   "name": "electron-browser-window-options",
   "description": "Reference for default Electron BrowserWindow options.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Nate Goldman <ungoldman@gmail.com> (https://ungoldman.com/)",
   "bugs": {
     "url": "https://github.com/ungoldman/electron-browser-window-options/issues"
