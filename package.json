@@ -7,8 +7,8 @@
     "url": "https://github.com/ungoldman/electron-browser-window-options/issues"
   },
   "devDependencies": {
-    "snazzy": "^2.0.1",
-    "standard": "^5.4.1"
+    "snazzy": "^7.0.0",
+    "standard": "^11.0.0"
   },
   "homepage": "https://github.com/ungoldman/electron-browser-window-options",
   "keywords": [

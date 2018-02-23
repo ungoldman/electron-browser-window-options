@@ -158,4 +158,3 @@ module.exports = {
     pageVisibility: false
   }
 }
-
