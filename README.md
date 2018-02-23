@@ -15,6 +15,12 @@
 
 Reference for default [Electron BrowserWindow options][docs].
 
+---
+
+⚠️ NO LONGER MAINTAINED ⚠️
+
+---
+
 Can be used just for reference and copy pasting, or can be imported and used for, like, whatever:
 
 * require and override to make your own defaults
@@ -222,10 +228,12 @@ module.exports = {
 
 ## Contributing
 
+Contributions welcome! Please read the [contributing guidelines](CONTRIBUTING.md) before getting started.
+
 Exported options should mirror [Electron BrowserWindow documentation][docs] exactly. If something is out of date, please feel free to make an issue or send a pull request.
 
 ## License
 
-[ISC](LICENSE)
+[ISC](LICENSE.md)
 
 [docs]: https://github.com/atom/electron/blob/master/docs/api/browser-window.md
